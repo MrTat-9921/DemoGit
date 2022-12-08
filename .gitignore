@@ -1,0 +1,22 @@
+### Day la comment
+
+### Bo qua file example.txt
+Trash.txt
+
+### Bo qua folder example_folder
+bin/
+
+### Không bỏ qua file example.txt trong thư mục abc
+!bin/important.txt
+
+### bỏ qua tất cả các file có đuôi là .xml
+*.xml
+
+### bỏ qua tất cả các file có đuôi là .xml trong thư mục config
+config/*.xml
+
+### bỏ qua tất cả các file có tên là foo.txt ở mọi nơi trong project
+**/foo.txt
+ 
+### Bỏ qua tất cả các file trong thư mục folder
+folder/** 
