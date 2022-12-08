@@ -3,11 +3,11 @@
 ### Bo qua file example.txt
 Trash.txt
 
-### Bo qua folder example_folder
-bin/
-
 ### Không bỏ qua file example.txt trong thư mục abc
 !bin/important.txt
+
+### Bo qua folder example_folder
+bin/
 
 ### bỏ qua tất cả các file có đuôi là .xml
 *.xml
